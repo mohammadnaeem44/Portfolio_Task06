@@ -115,3 +115,10 @@ Development environment: Windows (requires Windows-compatible npm scripts).
 - **Session Storage**: PostgreSQL-backed sessions for scalability
 - **Static Files**: Express serves built frontend in production
 - **Error Handling**: Centralized error middleware with proper status codes
+
+### Netlify Deployment
+- **Build Command**: `npm run build` creates static files in `dist/public`
+- **Publish Directory**: `dist/public`
+- **SPA Routing**: `_redirects` file handles client-side routing
+- **Node Version**: Set to Node 20 in netlify.toml
+- **Deployment Type**: Frontend-only static deployment (backend not included)
