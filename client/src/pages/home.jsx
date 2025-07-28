@@ -17,7 +17,8 @@ import {
   Linkedin,
   Github,
   Twitter,
-  CheckCircle
+  CheckCircle,
+  Palette
 } from "lucide-react";
 
 export default function Home() {
@@ -113,21 +114,21 @@ export default function Home() {
   const services = [
     {
       icon: <Code className="w-8 h-8 text-accent" />,
-      title: "Frontend Development",
-      description: "Creating responsive, interactive user interfaces using React, Vue.js, and modern CSS frameworks. Focus on performance and user experience.",
-      features: ["React & Vue.js", "Responsive Design", "Performance Optimization"]
+      title: "Web Development",
+      description: "Specialized in React and Node.js development, creating modern, responsive web applications with exceptional user experiences.",
+      features: ["React & Node.js", "Responsive Design", "Modern Web Technologies"]
     },
     {
       icon: <Server className="w-8 h-8 text-accent" />,
-      title: "Backend Development",
-      description: "Building robust server-side applications and APIs using Node.js, Python, and cloud technologies. Scalable and secure solutions.",
-      features: ["Node.js & Python", "API Development", "Database Design"]
+      title: "Mobile Development",
+      description: "Building cross-platform mobile applications with cutting-edge technologies and frameworks for iOS and Android platforms.",
+      features: ["Cross-Platform Apps", "iOS & Android", "Mobile UI/UX"]
     },
     {
       icon: <Settings className="w-8 h-8 text-accent" />,
-      title: "Full-Stack Solutions",
-      description: "Complete web application development from concept to deployment. End-to-end solutions with modern technology stacks.",
-      features: ["MERN/MEAN Stack", "Cloud Deployment", "DevOps & CI/CD"]
+      title: "3D Modeling & ML",
+      description: "Expertise in 3D modeling, machine learning, embedded systems, and data analytics for comprehensive technical solutions.",
+      features: ["3D Modeling", "Machine Learning", "Data Analytics"]
     }
   ];
 
@@ -139,7 +140,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <h1 className="text-xl font-bold text-primary">John Developer</h1>
+              <h1 className="text-xl font-bold text-primary">Portfolio</h1>
             </div>
             
             {/* Desktop Navigation */}
@@ -205,11 +206,11 @@ export default function Home() {
             <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-tight mb-6">
                 <span className="block">Hello, I'm</span>
-                <span className="block text-accent">John Developer</span>
+                <span className="block text-accent">Mohammad Naeem</span>
               </h1>
               <p className="text-xl text-secondary mb-8 max-w-2xl">
-                Full-stack developer crafting beautiful, functional web experiences with modern technologies. 
-                Passionate about clean code and user-centered design.
+                Creative and passionate Computer Systems Engineer specializing in React, Node.js, and modern web technologies. 
+                I create beautiful, responsive web applications that deliver exceptional user experiences.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button 
@@ -285,7 +286,7 @@ export default function Home() {
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-4">Let's Work Together</h2>
               <p className="text-xl text-secondary max-w-2xl mx-auto">
-                Ready to start your next project? Get in touch and let's discuss how I can help bring your ideas to life.
+                Ready to bring your project to life? Let's discuss how we can work together to create something amazing.
               </p>
             </div>
             
@@ -302,7 +303,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-primary mb-1">Email</h4>
-                      <p className="text-secondary">john.developer@email.com</p>
+                      <p className="text-secondary">mohammadnaeemgg000@gmail.com</p>
                     </div>
                   </div>
                   
@@ -312,7 +313,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-primary mb-1">Phone</h4>
-                      <p className="text-secondary">+1 (555) 123-4567</p>
+                      <p className="text-secondary">+92 319 3501221</p>
                     </div>
                   </div>
                   
@@ -322,7 +323,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-primary mb-1">Location</h4>
-                      <p className="text-secondary">San Francisco, CA</p>
+                      <p className="text-secondary">Sukkur, Pakistan</p>
                     </div>
                   </div>
                 </div>
@@ -331,27 +332,30 @@ export default function Home() {
                 <div className="pt-6">
                   <h4 className="font-semibold text-primary mb-4">Follow Me</h4>
                   <div className="flex space-x-4">
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent hover:text-white transition-all duration-200 p-0"
+                    <a
+                      href="https://www.linkedin.com/in/mohammad-naeem-18708227b"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent hover:text-white transition-all duration-200"
                     >
                       <Linkedin className="w-5 h-5" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent hover:text-white transition-all duration-200 p-0"
+                    </a>
+                    <a
+                      href="https://github.com/mohammadnaeem44"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent hover:text-white transition-all duration-200"
                     >
                       <Github className="w-5 h-5" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent hover:text-white transition-all duration-200 p-0"
+                    </a>
+                    <a
+                      href="https://www.artstation.com/parker431"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center hover:bg-accent hover:text-white transition-all duration-200"
                     >
-                      <Twitter className="w-5 h-5" />
-                    </Button>
+                      <Palette className="w-5 h-5" />
+                    </a>
                   </div>
                 </div>
               </div>

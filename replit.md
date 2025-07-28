@@ -2,11 +2,13 @@
 
 ## Overview
 
-This is a full-stack web application built with a modern React frontend and Express.js backend. The application uses TypeScript throughout and is designed as a monorepo with shared type definitions and schemas. It features a PostgreSQL database with Drizzle ORM for data management and shadcn/ui components for the user interface.
+This is a simplified portfolio website built with React and Tailwind CSS featuring navbar, hero, services, and contact components. The portfolio showcases Mohammad Naeem, a Computer Systems Engineer specializing in React, Node.js, and modern web technologies. The application uses JavaScript (converted from TypeScript) and features a modern, responsive design.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Programming language preference: JavaScript instead of TypeScript for portfolio site.
+Portfolio owner: Mohammad Naeem, Computer Systems Engineer from Sukkur, Pakistan.
 
 ## System Architecture
 
