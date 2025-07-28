@@ -9,6 +9,7 @@ This is a simplified portfolio website built with React and Tailwind CSS featuri
 Preferred communication style: Simple, everyday language.
 Programming language preference: JavaScript instead of TypeScript for portfolio site.
 Portfolio owner: Mohammad Naeem, Computer Systems Engineer from Sukkur, Pakistan.
+Development environment: Windows (requires Windows-compatible npm scripts).
 
 ## System Architecture
 
