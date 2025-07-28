@@ -230,11 +230,15 @@ export default function Home() {
             
             {/* Hero Image */}
             <div className="lg:w-1/2 flex justify-center lg:justify-end">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600" 
-                alt="Professional developer portrait" 
-                className="rounded-full shadow-2xl w-80 h-80 object-cover border-8 border-white"
-              />
+              <div className="w-80 h-80 bg-gradient-to-br from-accent/20 to-accent/40 rounded-full shadow-2xl border-8 border-white flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-24 h-24 bg-accent/20 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <Code className="w-12 h-12 text-accent" />
+                  </div>
+                  <p className="text-lg font-semibold text-accent">Mohammad Naeem</p>
+                  <p className="text-sm text-secondary">Computer Systems Engineer</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
